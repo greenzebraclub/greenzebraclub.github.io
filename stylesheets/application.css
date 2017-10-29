@@ -3648,7 +3648,7 @@ tbody.collapse.in {
   padding: 30px 0;
   margin-bottom: 0;
   color: white;
-  background: #2e2f41 url(../images/city.jpg) 0 0 no-repeat;
+  background: #2e2f41 url(../images/city.jpg) 0 30% no-repeat;
   background-size: cover;
   text-align: center;
 }
@@ -3684,7 +3684,11 @@ tbody.collapse.in {
     font-size: 44px;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 320px) {
+/*
+@media screen and (min-width: 1600px) {
+  .jumbotron {
+    background: #2e2f41 url(../images/city.jpg) 50% 50% no-repeat;
+  }
   .jumbotron h1,
   .jumbotron .h1 {
     font-size: 34px;
@@ -3699,6 +3703,7 @@ tbody.collapse.in {
   margin-top: 50px;
   margin-bottom: 20px;
 }
+*/
 @media screen and (max-width: 800px) {
   .jumbotron .img-logo {
     margin-top: 0;
